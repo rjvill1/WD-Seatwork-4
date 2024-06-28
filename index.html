@@ -3,42 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Basic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="\index.html">
-        <button>
-         <h1><span></span>RJ</h1>
-        </button></a>
-         <nav>
-            <a href="\pages\page1\index.html">
-            <button>
-                <span></span>Skills
-            </button></a>
-
-            <a href="\pages\page2\index.html">
-            <button>
-                <span></span>Education
-            </button></a>
-
-            <a href="\pages\page3\index.html">
-            <button>
-                <span></span>Projects
-            </button></a>
-        </nav>
-    </header>
-    <div class="banner">
-        <video autoplay loop muted plays-inline class="back-video">
-            <source src="assets\mp4\c94190ed-7a61-42e1-a65f-c71aad28e25a.mp4" type="video/mp4">
-        </video>
-        <div class="content">
-            <h1>Rojge Jericho Villanueva</h1>
-            <h2>IT0043-TX03</h2>
-            <p>A college student of Far Eastern University Institute of Technology. <br>Currently taking The Bachelor of Science in Information Technology specialized in Animation and Game Developemnt</p>
+    <div class="bg-img">
+        <div class="navbar">
+            <a href="./index.html">
+                <img src="./assets/img/main-logo.png" class="logo">
+            </a>
+            <ul>
+                <button>
+                    <a href="./pages/feature1/index.html">
+                        <img src="./assets/img/feature1-icon.png" width="50%" height="50px">
+                    </a>
+                </button>
+                <button>
+                    <a href="./pages/feature2/index.html">
+                        <img src="./assets/img/feature2-icon.png" width="50%" height="50px">
+                    </a>
+                </button>
+            </ul>
         </div>
-        
+
+        <div class="content">
+            <h1>Feature Display</h1>
+            <h3>Seatwork 4</h3>
+            <p>Create a Features Display Website showcasing distinct design layouts for different features using pure HTML and CSS.<br>The website should include multiple pages for demonstration and emphasize layout design.</p>
+        </div>
+
+        <div class="features">
+            <a href="./pages/feature1/index.html" class="feat1">
+                <img src="./assets/img/feature1-cs.png" class="cs-duo">
+                <p>Counter-Strike</p>
+            </a>
+            <a href="./pages/feature2/index.html" class="feat2">
+                <img src="./assets/img/dbd-duo.png" class="duo-dbd">
+                <p>Dead By Daylight</p>
+            </a>
+        </div>
     </div>
 </body>
 </html>
