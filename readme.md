@@ -109,6 +109,6 @@ WD-ProjectName
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 
-| How To Make Website Using HTML And CSS | Website Design With Html And CSS |  | https://www.youtube.com/watch?v=PgAZ8KzfhO8&t=62s |
+| Counter-Strike 2 | Took some videos, images, and information | https://www.counter-strike.net/cs2 |
 
-|-|-|-|
+| Dead By Daylight | Took some videos, images, and information | https://deadbydaylight.com/ |
